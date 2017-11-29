@@ -11,18 +11,24 @@
 </head>
 <body>
   <div id="container-students">
+    <!--Especialización--> 
     <div id="especialization">
-        <ul> ESPECIALIZATION
-            <li><input type="checkbox" name="checkbox" id="javascript">
-                <label for="checkbox1">Javascript</label> </li>
-            <li><input type="checkbox" name="checkbox" id="uxDesign">
-                <label for="checkbox2">Ux Design</label> </li>
-            <li><input type="checkbox" name="checkbox" id="frontEndDesigner">
-                <label for="checkbox3">Front end Designer</label></li>
+        <ul><label for="" class="medium-letter">ESPECIALIZATION</label>
+            <li ><input type="checkbox" name="checkbox" id="javascript">
+                <label for="checkbox1" class="stardart-letter">Javascript</label> </li>
+            <li ><input type="checkbox" name="checkbox" id="uxDesign">
+                <label for="checkbox2" class="stardart-letter">Ux Design</label> </li>
+            <li class=><input type="checkbox" name="checkbox" id="frontEndDesigner">
+                <label for="checkbox3" "stardart-letter">Front end Designer</label></li>
         </ul>
+        <br>
+        <br>
+        <br>
     </div>
 
+    <!--Visualización--> 
     <div id="visualization">
+      <!-- Búsqueda de estudiantes -->   
       <div id="content-search">
         <div id= "icon-search">
         </div> 
@@ -30,52 +36,64 @@
             <input type="text" id="input-search">
         </div>
       </div>
-
+      <!-- Visualiza estudiantes -->   
       <div id="student">
-         <!--Photo  -->
+         <!--foto-->
          <div id="photo">
              <img src="css/images/maria.jpg" alt="">
          </div>
 
          <div class="date">
-
-         <div id="date-student">
-           <div id="name">DIANA NAVARRO</div>
-           <div id="especialization-student">Fronted Developer</div>
-         </div>
-
-         <div id="tech-skills">
-           <div id="tech">
-             <label for="" class ="percent-big-letter">95.6%</label>
-             <br>
-             <label for="" class="little-letter">TECH SKILLS</label>
-           </div>
-         </div>
-
-         <div id="life-skills">
-           <div id="life">
-             <label for="" class ="percent-big-letter">95.6%</label>
-             <br>
-             <label for="" class="little-letter">LIFE SKILLS</label>
-           </div>
-         </div>
-               
-         <div id="english-skills"></div>
-            
-         <div id="skill-1">Javascript</div>
-         <div id="skill-2">Javascript</div>
-         <div id="skill-3">Javascript</div>
-         
+            <!--datos de estudiante-->
+            <div id="date-student">
+              <div id="name" class ="big-letter">DIANA NAVARRO</div>
+              <div id="especialization-student">Fronted Developer</div>
+            </div>
+            <!--evaluación técnica-->
+            <div id="tech-skills">
+              <div id="tech">
+                <label for="" class ="big-letter">95.6%</label>
+                <br>
+                <label for="" class="little-letter">TECH SKILLS</label>
+              </div>
+            </div>
+            <!--evaluación habilidades blandas-->
+            <div id="life-skills">
+              <div id="life">
+                <label for="" class ="big-letter">95.6%</label>
+                <br>
+                <label for="" class="little-letter">LIFE SKILLS</label>
+              </div>
+            </div>
+            <!--evaluación ingles-->      
+            <div id="english-skills">
+                <div id="english">
+                    <label for="" class ="big-letter">INTERN</label>
+                    <br>
+                    <label for="" class="little-letter">ENGLISH SKILLS</label>
+                </div>
+            </div> 
+            <br>
+            <br>
+            <!--descripción de habilidades técnicas--> 
+            <div id="skills-details" class="little-letter">
+                <div id="skill-1">Javascript</div>
+                <div id="skill-2">APIs</div>
+                <div id="skill-3">JQuery</div>
+            </div>
+            <br>
+            <br>
+            <label for="">Ver perfil</label>
+            <span>i</span>
+  
         </div>
-
-         <label for="">Ver perfil</label>
-         <span>icono</span>
-   
-         </div>
-
+         <br>
+         <br>
+      </div>
+        <div id="nuevo">ssssss
+            <br>
+        </div>
     </div>
-
- 
   </div>
     <script src="../js/app.js"></script>
 </body>
